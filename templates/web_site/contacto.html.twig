@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello {{ controller_name }}!{% endblock %}
+
+{% block body %}
+    <div class="stage">
+        <img class="img-responsive" src="/images/foto_principal.png">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 id="bio" class="text-center">
+                    Contacto
+                </h1>
+
+                <div  class="col-md-7 center-block">
+                    <form id="contact-form-element" method="POST">
+                        <div class="col-md-12 form-group center-block">
+                            <input id="nombre" required name="name" class="form-control" type="text" placeholder="Nombre" />
+                        </div>
+                        <br>
+                        <div class="col-md-12 form-group center-block">
+                            <input id="email" data-validation="email" required name="email" class="form-control" type="text" placeholder="Correo" />
+                        </div>
+                        <br>
+                        <div class="col-md-12 form-group center-block">
+                            <textarea id="mensaje" required name="message" rows="12" class="form-control" placeholder="Comentarios"> </textarea>
+                        </div>
+                        <br>
+                        <div class="col-md-12 form-group center-block">
+                            <input type="submit" class="btn btn-bd-primary col-md-6 center-block" value="Enviar">
+                        </div>
+                        <br><br>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
