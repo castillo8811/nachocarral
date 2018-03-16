@@ -1,0 +1,148 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello {{ controller_name }}!{% endblock %}
+
+{% block body %}
+    <div class="stage">
+        <img class="img-responsive" src="/images/foto_principal.png">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 id="bio" class="text-center">
+                    BIO
+                </h1>
+                <div class="bio-content">
+                    <p>Nacido en la Ciudad de México el 28 de Febrero de 1986, Nacho Carral</p>
+                    <p>
+                        Comienza su carrera como cantante y compositor a muy temprana edad, con intentos en varios
+                        grupos infantiles, que por el contexto y circunstancias de ese momento no se concretaron, aunque
+                        a los 17 años decide iniciar un proyecto de un dueto integrado por el cantante y Emma Daniela
+                        dando vida al grupo Sairus, mismo que estuvo generando impacto por 2 años. En paralelo decide
+                        iniciar sus estudios en el canto clásico con Adriana Diaz de Leon, concertistas de Bellas Artes
+                        y reconocida cantante a nivel internacional, por más de 7 años.
+                        Hubo una pausa en su carrera de música donde opto por estudiar la Licenciatura en Creacion y
+                        Desarrollo de Empresas en el Tecnológico de Monterrey, la cual le dio herramientas para que en
+                        2014 iniciara su mayor emprendimiento dando a luz su primer disco Antes de Empezar, que consta
+                        con 7 canciones mismas que fueron producidas y masterizadas en México, sieguiendo el cantante
+                        con sus raíces mexicanas.
+                    </p>
+                    <p>
+                        La presentación de su primer EP Antes de Empezar se llevó a cabo en el Zócalo de la Ciudad de
+                        México, generando un gran impacto en los asistentes, aunque de primera instancia se lanzó en
+                        Redes Sociales y plataformas digitales el primer sencillo Sin Mí, mismo que consistió en una
+                        promoción digital y medios tradicionales en la Ciudad de México principalmente, durante este
+                        lanzamiento hizo otra presentación en el Zócalo de la Ciudad de México dentro de las
+                        festividades del Festival de las Culturas Amigas, así como la publicación del video del sencillo
+                        en Youtube.
+                    </p>
+                    <p>
+                        En esos inicios se hubieron varias presentaciones a lo largo de la República Mexicana, la
+                        primera presentación en el Hijo del Cuervo, Nacho se apoderó del escenario y logró que más de
+                        300 personas cantaran canciones que escuchaban por primera vez, sucesivamente ha tenido varias
+                        presentaciones en algunos otros estados de la república, así como en foros independientes en la
+                        Ciudad de México.
+                    </p>
+                    <p>
+                        Nacho Carral es un intérprete independiente que ha buscando cumplir su
+                        sueño como cantante fue su tenacidad y perseverancia lo que hoy motiva su lanzamiento público.
+                        Actualmente sigue su preparación musical con Anibal Murat, coach musical de la Voz México.
+                    </p>
+                    <p>
+                        El el ano de 2017 comienza también su carrera en la televisión como dos veces especialista de
+                        canto y juez en programas de gran difusión a nivel local y regional en el Estado de Chihuahua,
+                        Texas y Nuevo México, iniciando próximamente conducción en un programa de televisión en un canal
+                        transmitiendo a nivel nacional desde la Ciudad de México.
+                    </p>
+
+                    <h3>
+                        Comenzar de Nuevo.
+                    </h3>
+                    <p>
+                        Una composición del cantante junto con el productor Mariano Castrejon, inspirada en las
+                        vivencias del cantante al perder a su abuela quien fue la inspiración y apoyo principal en su
+                        carrera. Es una balada pop romántica con un sentido casi sinfónico, utilizando los instrumentos
+                        clásicos y un juego de cuerdas que le da realce y clímax a la canción.
+                    </p>
+                    <p>
+                        Siendo este el segundo sencillo que lanza al aire NACHO CARRAL, con gran difusión, el
+                        lanzamiento del video en exclusiva fue en el Canal 44 en Ciudad Juarez, dando seguimiento a la
+                        promoción del mismo, en rotación en radio a nivel nacional en las principales ciudades del
+                        centro del país, dando lugar a una gira de medios con impacto de más de 65 medios de
+                        comunicación en una mezcla de televisión radio y medios impresos, así como cantando en la
+                        apertura de SAMO en Irapuato con más de 400 personas, independientemente de ser llamado a
+                        portada en las dos principales revistas sociales del Estado de Chihuahua y el Paso, Texas. La
+                        primera etapa de la gira concluye en Ciudad Juarez con el show inaugural de la Feria de Juárez
+                        con más 30 mil asistentes.
+                    </p>
+                    <p>
+                        Próximamente iniciara gira en la Ciudad de México, Monterrey y Guadalajara, en donde también
+                        está el sencillo de Comenzar de Nuevo sonando en las principales estaciones de radio,
+                        concluyendo la promoción con presentaciones una vez más en diciembre en el Zócalo de la Ciudad
+                        de México y festivales masivos en la ciudad de Monterrey y Guadalaja, dando lugar a los próximos
+                        sencillos ya producidos con muchas sorpresas para el 2018.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <a class="video-title" href="https://www.youtube.com/channel/UCfrbrNrh349yOdFJxnilSCA" target="_blank" class="col-md-4 col-sm-6 btn btn-default btn-bd-primary center-block">Ver mas</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="musica section" id="musica">
+        <div class="container">
+            <div class="col-md-7">
+                <img class="img-responsive wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s" src="/images/nacho_foto_01.jpg" />
+            </div>
+            <div class="col-md-5">
+                <iframe class="playlist" src="https://open.spotify.com/embed/artist/52fJzruaVaNNnOC7KQXPn4" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="video section wow slideInRight" data-wow-duration="1s" data-wow-delay="1s">
+        <div class="container">
+            <h1 class="text-center" id="videos">
+                VIDEOS
+            </h1>
+            <div class="col-md-12">
+            {% for video in videos %}
+
+            <div class="col-md-4">
+                <a class="video-title" href="https://www.youtube.com/watch?v={{ video.id.videoId }}" target="_blank">
+                    <img class="img-responsive" src="{{ video.snippet.thumbnails.high.url }}" />
+                    <span class="video-title">{{ video.snippet.title }}</span>
+                </a>
+            </div>
+            {% endfor %}
+            </div>
+            <div class="col-md-12">
+                <a  href="https://www.youtube.com/channel/UCfrbrNrh349yOdFJxnilSCA" target="_blank" class="video-title col-md-4 col-sm-6 btn btn-default btn-bd-primary center-block">Ver mas</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="instagram section" id="fotos">
+        <div class="container">
+            <h1 class="text-center">
+                FOTOS
+            </h1>
+            <div class="col-md-12">
+                <div class="col-md-3" style="min-height: 250px">
+                    <img class="img-responsive vertical-align wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s" src="{{ asset('images/logo_instagram.png') }}" />
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s" src="{{ asset('images/foto_01.jpg') }}" />
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive wow slideInRight" data-wow-duration="1s" data-wow-delay="1s" src="{{ asset('images/foto_02.jpg') }}" />
+                </div>
+                <div class="col-md-3">
+                    <img class="img-responsive wow slideInRight" data-wow-duration="1s" data-wow-delay="1s" src="{{ asset('images/foto_03.jpg') }}" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
