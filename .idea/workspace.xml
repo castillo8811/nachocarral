@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4d0a56b-5639-418f-a38b-a2732aae1f90" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/emails/contact.html.twig" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/WebSiteController.php" afterPath="$PROJECT_DIR$/src/Controller/WebSiteController.php" />
-    </list>
+    <list default="true" id="b4d0a56b-5639-418f-a38b-a2732aae1f90" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -350,12 +346,12 @@
       <workItem from="1520811048562" duration="7882000" />
       <workItem from="1521061209973" duration="631000" />
       <workItem from="1521128562338" duration="1824000" />
-      <workItem from="1521164683840" duration="8622000" />
+      <workItem from="1521164683840" duration="8932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18959000" />
+    <option name="totallyTimeSpent" value="19269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="283" width="1680" height="1023" extended-state="6" />
