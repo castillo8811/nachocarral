@@ -1,18 +1,32 @@
 @import "~slick";
 @import "~animate.css";
 
+@font-face {font-family: 'ProximaNovaRegular'; src: url('../fonts/proxima_nova/Proxima_Nova_Regular2.eot'); src: url('../fonts/proxima_nova/Proxima_Nova_Regular2.eot?#iefix') format('embedded-opentype'),url('../fonts/proxima_nova/Proxima_Nova_Regular2.woff') format('woff'), url('../fonts/proxima_nova/Proxima_Nova_Regular2.ttf') format('truetype'); font-weight: normal; font-style: normal;}
+
+
 #navbar, footer {
     letter-spacing: 1px;
     font-size: 16px;
 }
+
+h3{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
 body{
-    font-family: 'helvetica', sans-serif;
+    font-family: 'ProximaNovaRegular', 'helvetica', sans-serif;
     letter-spacing:normal;
 }
 
 body  h2{
     font-family: 'Soria', serif;
     letter-spacing: .5px;
+}
+
+p{
+    font-size: 1.8rem;
+    margin: 20px 0 20px 0;
 }
 
 .stage img{
