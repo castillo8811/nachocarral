@@ -37,8 +37,8 @@ class WebSiteController extends Controller
             $email=$request->get('email');
             $message=$request->get('message');
             $message = (new \Swift_Message('Contacto!'))
-                ->setFrom('castillo8811@gmail.com')
-                ->setTo('castillo8811@gmail.com')
+                ->setFrom('nachocarralnc@gmail.com')
+                ->setTo('nachocarralnc@gmail.com')
                 ->setBody(
                     $this->renderView(
                         'emails/contact.html.twig',
